@@ -1,0 +1,40 @@
+.portada{
+    /* background-image: url(img/brasilargentina.png); */
+    background-position: center;
+
+   
+  
+    background-repeat: repeat;
+
+    position: relative;  /* para que nav se posicione adelante de la img  */
+    z-index: none;          /* para que nav se posicione adelante de la img  */
+    /* background-size: cover;  me adapta la imagen al fondo */
+}
+
+
+
+.menu-bar {
+    display: block;
+    width: 100%;
+    /* background-color: rgba(8, 36, 126, 0.425); */
+   
+}
+
+
+.menu-bar .bt-menu{
+    display: block;
+    padding: 20px;
+    background:  rgba(23, 3, 41, 0.674);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 27px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.menu-bar span{
+    float: right;
+    font-size: 30px;
+    color: white;
+}
